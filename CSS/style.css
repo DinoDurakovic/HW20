@@ -1,3 +1,58 @@
+.collapse {
+  justify-content:end;
+}
+
+.nav-item {
+  display:flex;
+}
+
+.nav-link {
+  display:flex;
+}
+
+.navbar-nav{
+  display:flex;
+  width:30%;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.navbar {
+  display:flex;
+  height: 100px;
+  border-bottom:solid #30391A;
+}
+
+
+.navbar-brand {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+  width: 18%;
+  font-size:40px !important;
+}
+
+.btn btn-primary {
+  background-color: solid blue;
+}
+
+.btn-success {
+  background-color: #535a40 !important;
+  
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+  
+  background-color: #30391A !important;
+}
+ 
+
+
+
+
+
+/*before changes were made*/
 #navBar {
     border-bottom:solid #30391A;
     display:flex ;

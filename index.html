@@ -11,28 +11,40 @@
     </head>
     <body>
        
-        <nav id="navBar">
-            <div class="headLogo">
-            <img src="Images/Logo.png" alt="Logo" style="height: 100px;width: 100px;">
-            <h1>Dino Durakovic</h1>
-            </div>
-            <div id="navigation">
-              <p class="navItem">About</p>
-              <p class="navItem">Projects</p>
-              <button id="contact" class="contact">Contact</button>
-            </div>       
-           </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand"  href="#">            <img src="Images/Logo.png" alt="" width="50" height="50">
+      Dino Durakovic</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#">Projects</a>
+            <button1  style="background-color: #30391A; color: white; padding: 15px 50px; " class="nav-item nav-link" data-toggle="modal" href="#exampleModal">Contact</button1>
+          </div>
+        </div>
+      </nav>
 
-           <div id="popup1" class="popup">
-            <div class="popup-overlay">
-             <div class="popup-content">
-               <h2>contact me</h2>
-               <h4>example text for now...</h4>
-             </div>
-             <span class="close">&times;</span>
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Contact Me!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success "  style="opacity: 900">Send</button>
             </div>
           </div>
-
+        </div>
+      </div>
 
 
            <section>
