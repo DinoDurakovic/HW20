@@ -57,10 +57,33 @@
   background-color: #30391A !important;
 }
  
+button1 {
+  cursor: pointer;
+}
 
 
 
+.usda-main  {
+  background-image: url("/Images/USDA-JUMBO.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  background-position: center;
+} 
 
+.usda-content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*before changes were made*/
 #navBar {

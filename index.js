@@ -31,6 +31,19 @@ $(".project4").on("mouseleave", function(){
 });
 
 
+$("button1").on("mouseenter", function(){
+  $("button1").css("background-color", "grey")
+});
+
+$("button1").on("mouseleave", function(){
+  $("button1").css("background-color", "#30391A")
+});
+
+
+
+
+
+
 
 console.log("hello world, it is I.");
 
@@ -61,3 +74,4 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 } 
+
